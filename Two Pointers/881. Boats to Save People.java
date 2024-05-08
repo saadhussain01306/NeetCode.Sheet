@@ -37,6 +37,7 @@ class Solution {
         int boat=0;
 
         while(left<=right){
+         //if lightest and the heavest people can accomadate in the boat go ahead..
             if((left!=right) && (p[left]+p[right]<=l)){
                 left++;
             }
